@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>627</width>
+    <height>72</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QLineEdit" name="Searching_Edit">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>540</width>
+     <height>72</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color:#bababa;
+font: 22pt &quot;Consolas&quot;;
+background-color:#545454;
+</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="Searching_Btn">
+   <property name="geometry">
+    <rect>
+     <x>540</x>
+     <y>0</y>
+     <width>71</width>
+     <height>72</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Searching</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="Searching_Btn_2">
+   <property name="geometry">
+    <rect>
+     <x>560</x>
+     <y>0</y>
+     <width>71</width>
+     <height>72</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>        ∨</string>
+   </property>
+  </widget>
+  <zorder>Searching_Edit</zorder>
+  <zorder>Searching_Btn_2</zorder>
+  <zorder>Searching_Btn</zorder>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

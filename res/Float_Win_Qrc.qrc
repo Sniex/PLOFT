@@ -1,0 +1,9 @@
+<RCC>
+  <qresource prefix="Float_Win">
+    <file>image/left_Btn.png</file>
+  </qresource>
+  <qresource prefix="MainWindow">
+    <file>image/Close.png</file>
+    <file>image/background.png</file>
+  </qresource>
+</RCC>
